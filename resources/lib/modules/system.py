@@ -101,23 +101,16 @@ class system:
                     'order': 3,
                     'name': 32013,
                     'not_supported': [],
-                    'settings': {'AutoUpdate': {
+                    'settings': {'UpdateRasPlex': {
                         'name': 32014,
-                        'value': 'manual',
-                        'action': 'set_auto_update',
+                        'value': 'stable',
                         'typ': 'multivalue',
-                        'values': ['manual', 'auto'],
+                        'values': ['stable', 'bleeding'],
                         'InfoText': 714,
-                        }, 'UpdateNotify': {
-                        'name': 32365,
-                        'value': '1',
-                        'action': 'set_value',
-                        'typ': 'bool',
-                        'InfoText': 715,
                         }, 'CheckUpdate': {
                         'name': 32362,
                         'value': '',
-                        'action': 'manual_check_update',
+                        'action': 'check_for_update',
                         'typ': 'button',
                         'InfoText': 716,
                         }},
